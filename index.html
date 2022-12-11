@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/utiliti.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/all.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <!-- nav bar -->
+  <nav id="nav" class="d-flex">
+    <div class="container d-flex">
+      <div class="site-heading">
+        <h1>Portfo<span>lio.</span></h1>
+      </div>
+      <div class="menu-toggle" onclick="openMenu()">
+        <div class="menu-icon">
+          <i class="fa fa-bars"></i>
+        </div>
+      </div>
+      <!-- <div class="menu-close">
+        <div class="close-icon">
+          <i class="fa fa-close"></i>
+        </div>
+      </div> -->
+      <ul class="menu d-flex">
+        <div class="menu-close" onclick="closeMenu()">
+          <div class="close-icon">
+            <i class="fa fa-close"></i>
+          </div>
+        </div>
+        <li class="menu-item">
+          <a href="index.html" class="menu-link">home</a>
+        </li>
+        <li class="menu-item">
+          <a href="#about" class="menu-link">about</a>
+        </li>
+        <li class="menu-item">
+          <a href="#service" class="menu-link">service</a>
+        </li>
+        <li class="menu-item">
+          <a href="#skills" class="menu-link">skills</a>
+        </li>
+        <li class="menu-item">
+          <a href="#team" class="menu-link">team</a>
+        </li>
+        <li class="menu-item">
+          <a href="#contact" class="menu-link">contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End of nav -->
+
+  <!-- header or hero section -->
+  <header class="hero d-flex" id="header">
+    <div class="container d-flex">
+      <div class="short-info">
+        <p>Hello, my name is</p>
+        <h1>Vikash Kumar</h1>
+        <h4>And I'm a <span class="profession"></span></h4>
+        <button class="btn btn-primary">Hire me</button>
+      </div>
+      <div class="hero-img">
+        <div class="author-img">
+          <img src="img/author.png">
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- end of header and hero section -->
+
+  <!-- tap to top button -->
+  <div id="tapToTopBtn" class="tap-to-top">
+    <a href="#header" class="btn btn-primary d-flex"><i class="fa fa-angle-up"></i></a>
+  </div>
+  <!-- end of tap to top button -->
+
+  <!-- about me section -->
+  <section class="about" id="about">
+    <div class="container d-flex f-column">
+      <div class="about-me-heading heading d-flex f-column">
+        <h2>About me</h2>
+        <div class="d-flex">
+          <span></span>
+          <p>Who I am</p>
+          <span></span>
+        </div>
+      </div>
+      <div class="about-me-content d-flex">
+        <div class="about-me-img d-flex flex-1">
+          <div class="about-me-img-content">
+            <img src="img/profile-img.JPG" alt="profile-img">
+          </div>
+        </div>
+        <div class="about-me-text d-flex f-column flex-1">
+          <h3>I'm Vikash Kumar amd I'm a <span>developer</span></h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui libero doloribus veritatis cumque ab ratione
+            nulla laborum sunt provident? Quibusdam, facilis excepturi. Maxime, minima et aut odit eos ut
+            recusandae?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui libero doloribus veritatis cumque
+            ab ratione nulla laborum sunt provident? Quibusdam, facilis excepturi. Maxime, minima et aut odit eos ut
+            recusandae?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui libero doloribus veritatis cumque
+            ab ratione nulla laborum sunt provident? Quibusdam, facilis excepturi. Maxime, minima et aut odit eos ut
+            recusandae?</p>
+          <button class="btn btn-primary">Download CV</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about me section -->
+
+  <!-- my service section -->
+  <section id="service">
+    <div class="container d-flex f-column">
+      <div class="service-heading heading d-flex f-column">
+        <h2>My service</h2>
+        <div class="d-flex">
+          <span></span>
+          <p>What I provide</p>
+          <span></span>
+        </div>
+      </div>
+      <div class="service-content d-flex hide-scrollbar">
+        <div id="service-1" class="service-item d-flex f-column">
+          <div class="service-icon"><i class="fa-solid fa-paintbrush"></i></div>
+          <h3 class="service-title">Web Design</h3>
+          <p class="service-info text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit consequatur
+            repellat ipsum eos non esse?</p>
+        </div>
+        <div id="service-2" class="service-item d-flex f-column">
+          <div class="service-icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
+          <h3 class="service-title">Advertising</h3>
+          <p class="service-info text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit consequatur
+            repellat ipsum eos non esse?</p>
+        </div>
+        <div id="service-3" class="service-item d-flex f-column">
+          <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+          <h3 class="service-title">App Design</h3>
+          <p class="service-info text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit consequatur
+            repellat ipsum eos non esse?</p>
+        </div>
+        <div id="service-4" class="service-item d-flex f-column">
+          <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+          <h3 class="service-title">App Design</h3>
+          <p class="service-info text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit consequatur
+            repellat ipsum eos non esse?</p>
+        </div>
+        <div id="service-5" class="service-item d-flex f-column">
+          <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+          <h3 class="service-title">App Design</h3>
+          <p class="service-info text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit consequatur
+            repellat ipsum eos non esse?</p>
+        </div>
+        <div id="service-6" class="service-item d-flex f-column">
+          <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+          <h3 class="service-title">App Design</h3>
+          <p class="service-info text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit consequatur
+            repellat ipsum eos non esse?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of my service section -->
+
+  <!-- skills section -->
+  <section id="skills">
+    <div class="container d-flex f-column">
+      <div class="service-heading heading d-flex f-column">
+        <h2>My skills</h2>
+        <div class="d-flex">
+          <span></span>
+          <p>What I know</p>
+          <span></span>
+        </div>
+      </div>
+      <div class="skills-content d-flex">
+        <div class="skills-text flex-1">
+          <h2>This is my skills</h2>
+          <p class="skills-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quos veniam ad
+            ullam repudiandae aliquam adipisci recusandae voluptatem tempora reprehenderit. Illum facere nesciunt magnam
+            quasi debitis dolore assumenda sed minus, eius maiores deserunt facilis reprehenderit nostrum beatae
+            quisquam et error repellat architecto. Nemo provident deserunt quibusdam ducimus iste sunt tempora!</p>
+          <button class="btn btn-primary">Know more</button>
+        </div>
+        <div class="skills-meter flex-1">
+          <h4>How much I know</h4>
+          <div>
+            <h5>HTML</h5>
+            <div class="skill d-flex" id="html">
+              <div class="skill-para d-flex html-para"><span class="text-center">90%</span></div>
+            </div>
+          </div>
+          <div>
+            <h5>CSS</h5>
+            <div class="skill d-flex" id="css">
+              <div class="skill-para d-flex css-para"><span>85%</span></div>
+            </div>
+          </div>
+          <div>
+            <h5>JavaScript</h5>
+            <div class="skill d-flex" id="javascript">
+              <div class="skill-para d-flex js-para"><span>50%</span></div>
+            </div>
+          </div>
+          <div>
+            <h5>Bootstrap</h5>
+            <div class="skill d-flex" id="bootstrap">
+              <div class="skill-para d-flex bt-para"><span>70%</span></div>
+            </div>
+          </div>
+          <div>
+            <h5>PhotoShop</h5>
+            <div class="skill d-flex" id="photoshop">
+              <div class="skill-para d-flex ps-para"><span>60%</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of skill section -->
+
+
+  <!-- My team section -->
+  <section id="team">
+    <div class="container d-flex f-column">
+      <div class="team-heading heading d-flex f-column">
+        <h2>My team</h2>
+        <div class="d-flex">
+          <span></span>
+          <p>Meat my team</p>
+          <span></span>
+        </div>
+      </div>
+      <div class="team-content d-flex hide-scrollbar">
+        <div class="team-member d-flex f-column" id="member-1">
+          <div class="member-img">
+            <img src="img/profile-img.jpg">
+          </div>
+          <h5 class="member-name">Vikash Kumar</h5>
+          <span class="member-job">Web Developer</span>
+          <p class="member-info text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, natus.
+          </p>
+        </div>
+        <div class="team-member d-flex f-column" id="member-2">
+          <div class="member-img">
+            <img src="img/profile-img.jpg">
+          </div>
+          <h5 class="member-name">Vikash Kumar</h5>
+          <span class="member-job">Web Developer</span>
+          <p class="member-info text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, ex.</p>
+        </div>
+        <div class="team-member d-flex f-column" id="member-3">
+          <div class="member-img">
+            <img src="img/profile-img.jpg">
+          </div>
+          <h5 class="member-name">Vikash Kumar</h5>
+          <span class="member-job">Web Developer</span>
+          <p class="member-info text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, ex.</p>
+        </div>
+        <div class="team-member d-flex f-column" id="member-4">
+          <div class="member-img">
+            <img src="img/profile-img.jpg">
+          </div>
+          <h5 class="member-name">Vikash Kumar</h5>
+          <span class="member-job">Web Developer</span>
+          <p class="member-info text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, ex.</p>
+        </div>
+        <div class="team-member d-flex f-column" id="member-5">
+          <div class="member-img">
+            <img src="img/profile-img.jpg">
+          </div>
+          <h5 class="member-name">Vikash Kumar</h5>
+          <span class="member-job">Web Developer</span>
+          <p class="member-info text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, ex.</p>
+        </div>
+        <div class="team-member d-flex f-column" id="member-2">
+          <div class="member-img">
+            <img src="img/profile-img.jpg">
+          </div>
+          <h5 class="member-name">Vikash Kumar</h5>
+          <span class="member-job">Web Developer</span>
+          <p class="member-info text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, ex.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of my team section -->
+
+
+  <!-- contact me section -->
+  <section id="contact">
+    <div class="container d-flex f-column">
+      <div class="contact-heading heading d-flex f-column">
+        <h2>Contact me</h2>
+        <div class="d-flex">
+          <span></span>
+          <p>get in touch</p>
+          <span></span>
+        </div>
+      </div>
+      <div class="contact-content d-flex">
+        <div class="contact-text flex-1">
+          <h5>Get in touch</h5>
+          <p class="contact-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde debitis quisquam iste,
+            explicabo non dicta reiciendis! Vero repellat maiores nemo recusandae minima, beatae harum est debitis fuga
+            quidem. Officia necessitatibus non magnam asperiores? Sint, cumque. Reprehenderit voluptates cum unde
+            consequatur, cumque porro sint ab beatae hic nesciunt, assumenda quas odio.</p>
+          <div class="contact-adds">
+            <div class="add d-flex" id="add-1">
+              <div class="add-icon">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="add-text">
+                <p class="add-type">Name</p>
+                <p class="add-name">Vikash Kumar</p>
+              </div>
+            </div>
+            <div class="add d-flex" id="add-2">
+              <div class="add-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="add-text">
+                <p class="add-type">Address</p>
+                <p class="add-name">siwan, India</p>
+              </div>
+            </div>
+            <div class="add d-flex" id="add-3">
+              <div class="add-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="add-text">
+                <p class="add-type">Email</p>
+                <p class="add-name">vikashkumar396@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form flex-1">
+          <h5>Message me</h5>
+          <form>
+            <div class="name-group d-flex">
+              <div class="form-control">
+                <input type="text" placeholder="First Name">
+              </div>
+              <div class="form-control">
+                <input type="text" placeholder="Last Name">
+              </div>
+            </div>
+            <div class="form-control">
+              <input type="email" placeholder="Email">
+            </div>
+            <div class="form-control">
+              <input type="text" placeholder="Subject">
+            </div>
+            <div class="form-control">
+              <textarea placeholder="Message..."></textarea>
+            </div>
+            <button class="btn btn-primary">Send message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of contact me section -->
+
+  <!-- footer section -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-content text-center">Created by <a href="index.html"><b><i>Vikash Kumar</i></b></a> | &copy;
+        2020 All rights reserved.</div>
+    </div>
+  </footer>
+  <!-- end of footer section -->
+
+</body>
+
+</html>
